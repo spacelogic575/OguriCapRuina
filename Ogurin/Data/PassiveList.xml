@@ -56,8 +56,7 @@ At Emotion Level 2+, add 'Triumphant Pulse' to the Personal E.G.O hand. While in
     <Name>Undying Flame</Name>
     <Desc>Upon taking lethal damage, and all other death prevention effects have been expended, become briefly immune to all forms of damage and gain a surge of strength. When triggered, recover from Stagger next turn, become immune to damage and stagger damage for the next turn, recover all Light, draw 5 pages, become unable to be healed, and gain +2 Min and Max Power. On the end of that particular Scene, die.</Desc>
   </Passive>
-    </Passive>
-    <Passive ID="37770005">
+   <Passive ID="37770005">
     <Negative>false</Negative>
     <IsHide>true</IsHide>
     <Rarity>Unique</Rarity>
