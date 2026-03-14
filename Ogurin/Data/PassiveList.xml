@@ -66,8 +66,8 @@ At Emotion Level 2+, add 'Triumphant Pulse' to the Personal E.G.O hand. While in
     <InnerType>-1</InnerType>
     <Cost>7</Cost>
     <Script>CindGray_BossDiceAdd</Script>
-    <Name>OguriFat</Name>
-    <Desc>You so fat you get +3 dice base and +1 more at emotion 4.</Desc>
+    <Name>Speed - Triple 7s</Name>
+    <Desc>Gain +3 Speed dice.</Desc>
   </Passive>
   <Passive ID="37770006">
     <Negative>false</Negative>

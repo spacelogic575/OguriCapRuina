@@ -52,17 +52,19 @@
 	
 	<BattleEffectText ID="CindGray_Cinderella">
       <Name>The Gray Cinderella</Name>
-      <Desc>At the start of the Scene, when this unit has not taken any damage to their HP the previous Scene, restore 4% max HP (does not count the Monster Passive’s effect). For every instance this triggers, further increase this effect by 0.8% flat (additive, max 4% total), resets when it stops triggering consecutively. If HP is greater than 75%, also gain “Let My Name Rock Earth”. At the end of the Scene, gain 1 Strength for every 25% missing HP next Scene. Gain 1 Shin (心) - The Gray Cinderella upon restoring every 24% max HP total (counts while at max HP, but reduces the count to only 25% of the healed value when at max HP). Spend 5 Shin (心) - The Gray Cinderella to gain 1 Mang (望) - The Gray Cinderella</Desc>
+      <Desc>At the start of the Scene, when this unit has not taken any damage to their HP the previous Scene, restore 4% max HP (does not count the Monster Passive’s effect). For every instance this triggers, further increase this effect by 0.8% flat (additive, max 4% total), resets when it stops triggering consecutively. 
+	  If HP is greater than 75%, also gain “Let My Name Rock Earth”. At the end of the Scene, gain 1 Strength for every 25% missing HP next Scene. Gain 1 Shin (心) - The Gray Cinderella upon restoring every 24% max HP total (counts while at max HP, but reduces the count to only 25% of the healed value when at max HP). Spend 5 Shin (心) - The Gray Cinderella to gain 1 Mang (望) - The Gray Cinderella</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="CindGray_AshenMonster">
       <Name>The Ashen Monster</Name>
-      <Desc>At the start of the Scene, when this unit has not taken any damage to their HP the previous Scene, restore 8% max HP. For every instance this triggers, further increase the effect by 1% flat (max, 10% total). If HP is greater than 60%, also gain “Let My Name Shake Heaven and Earth”. At the end of the Scene, gain 1 Damage Up for every 15% missing HP and 1 Strength for every 20% missing HP next Scene</Desc>
+      <Desc>At the start of the Scene, when this unit has not taken any damage to their HP the previous Scene, restore 8% max HP. For every instance this triggers, further increase the effect by 1% flat (max, 10% total). 
+	  If HP is greater than 60%, also gain “Let My Name Shake Heaven and Earth”. At the end of the Scene, gain 1 Damage Up for every 15% missing HP and 1 Strength for every 20% missing HP next Scene</Desc>
     </BattleEffectText>
 	
 	<BattleEffectText ID="CindGray_Shield">
       <Name>Shield</Name>
-      <Desc>Whenever taking damage, shield will be reduced instead of your HP. Current shield HP: {0}</Desc>
+      <Desc>Whenever taking direct damage, shield HP will be reduced instead of your actual HP. Current shield HP: {0}</Desc>
     </BattleEffectText>
   </effectTextList>
 </BattleEffectTextRoot>
