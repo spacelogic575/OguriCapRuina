@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleEffectTextRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <effectTextList>
+    <BattleEffectText ID="Poise">
+      <Name>Poise</Name>
+      <Desc>Gain {0} x 5% chance to Crit. Lose 1 Stack on Crit and at the end of the Scene. Crits increase the final roll value by x1.2.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="Rupture">
+      <Name>Rupture</Name>
+      <Desc>Take bonus damage when hit equal to {0}. Stack reduces by 1/3rd when hit.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="CindGray_Shin">
+      <Name>Shin (心) - Gray Cinderella</Name>
+      <Desc>At the start of the Scene, gain Damage Up equal to stack. Gain a Shield equal to 6% of Max HP per stack (3% for Boss).</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="CindGray_Mang">
+      <Name>Mang (望) - Gray Cinderella</Name>
+      <Desc>At the start of the Scene, gain 7% Healing effectiveness, +1 Dice Power for every 4 Haste, and +1 Dice Max for every 3 Speed difference per stack.</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="LetMyNameRockEarth">
+      <Name>Let My Name Rock Earth</Name>
+      <Desc>Inflict 2 Bind to all enemies next Scene. Attacking an enemy with a Speed difference of 5 or higher inflicts 1 Feeble on Clash Win (up to 5 times per Scene).</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="LetMyNameShakeHeavenAndEarth">
+      <Name>Let My Name Shake Heaven and Earth</Name>
+      <Desc>Inflict 3 Bind to all enemies next Scene. Attacking an enemy with a Speed difference of 5 or higher inflicts 1~2 Feeble and Fragile on Clash Win (up to 8 times per Scene). If enemy Bind sum is 15+, inflict half of the Feeble total to all enemies next Scene.</Desc>
+    </BattleEffectText>
+
+	<BattleEffectText ID="OguriCraving">
+		<Name>Craving Monster</Name>
+		<Desc>On using a Combat Page, restore 1 Light.
+	[On Hit] If the target is Staggered, recover 8% of missing HP (4% for Boss).</Desc>
+	  </BattleEffectText>
+
+	  <BattleEffectText ID="OguriHungry">
+		<Name>Hungry Monster</Name>
+		<Desc>On using a Combat Page, restore 1-2 Light. All Dice on this character gain +1 Max value.
+	[On Hit] If the target is Staggered, recover 12% of missing HP (6% for Boss).</Desc>
+	  </BattleEffectText>
+
+	  <BattleEffectText ID="OguriStarving">
+		<Name>Starved Monster</Name>
+		<Desc>On using a Combat Page, restore 1-3 Light and have a 33% chance to draw 1 Page. All Dice on this character gain +1 Min and +2 Max value.
+	[On Hit] If the target is Staggered, recover 16% of missing HP (8% for Boss).
+	(If HP recovers above 50%, Monster self-damage is multiplied by 3x (2x for Boss) for 3 Scenes.)</Desc>
+	  </BattleEffectText>
+	
+	<BattleEffectText ID="CindGray_Cinderella">
+      <Name>The Gray Cinderella</Name>
+      <Desc>At the start of the Scene, when this unit has not taken any damage to their HP the previous Scene, restore 4% max HP (does not count the Monster Passive’s effect). For every instance this triggers, further increase this effect by 0.8% flat (additive, max 4% total), resets when it stops triggering consecutively. If HP is greater than 75%, also gain “Let My Name Rock Earth”. At the end of the Scene, gain 1 Strength for every 25% missing HP next Scene. Gain 1 Shin (心) - The Gray Cinderella upon restoring every 24% max HP total (counts while at max HP, but reduces the count to only 25% of the healed value when at max HP). Spend 5 Shin (心) - The Gray Cinderella to gain 1 Mang (望) - The Gray Cinderella</Desc>
+    </BattleEffectText>
+
+    <BattleEffectText ID="CindGray_AshenMonster">
+      <Name>The Ashen Monster</Name>
+      <Desc>At the start of the Scene, when this unit has not taken any damage to their HP the previous Scene, restore 8% max HP. For every instance this triggers, further increase the effect by 1% flat (max, 10% total). If HP is greater than 60%, also gain “Let My Name Shake Heaven and Earth”. At the end of the Scene, gain 1 Damage Up for every 15% missing HP and 1 Strength for every 20% missing HP next Scene</Desc>
+    </BattleEffectText>
+	
+	<BattleEffectText ID="CindGray_Shield">
+      <Name>Shield</Name>
+      <Desc>Whenever taking damage, shield will be reduced instead of your HP. Current shield HP: {0}</Desc>
+    </BattleEffectText>
+  </effectTextList>
+</BattleEffectTextRoot>
