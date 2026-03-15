@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StageXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Version>1.1</Version>
-  <Stage id="37770001">
-    <Name>Test Fight</Name>
+  <Stage id="37771001">
+    <Name>Reception of The Gray Cinderella</Name>
     <Wave>
       <Unit>37770001</Unit>
+      <Formation>41</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>5</AvailableUnit>
+      <emotionCardList />
+    </Wave>
+    <StageType>Invitation</StageType>
+    <FloorNum>3</FloorNum>
+    <Chapter>7</Chapter>
+    <Invitation Combine="BookValue">
+      <Value>7</Value>
+      <Num>3</Num>
+    </Invitation>
+    <Condition>
+      <Level>0</Level>
+    </Condition>
+    <IsChapterLast>false</IsChapterLast>
+    <invitationtype>false</invitationtype>
+  </Stage>
+  <Stage id="37771002">
+    <Name>OguriEats</Name>
+    <Wave>
+      <Unit>37770002</Unit>
+      <Unit>37770002</Unit>
+      <Unit>37770002</Unit>
+      <Unit>37770002</Unit>
       <Unit>37770002</Unit>
       <Formation>41</Formation>
       <FormationType>Default</FormationType>
@@ -13,7 +38,29 @@
     </Wave>
     <StageType>Invitation</StageType>
     <FloorNum>10</FloorNum>
-    <Chapter>7</Chapter>
+    <Chapter>1</Chapter>
+    <Invitation Combine="BookValue">
+      <Value>1</Value>
+      <Num>1</Num>
+    </Invitation>
+    <Condition>
+      <Level>0</Level>
+    </Condition>
+    <IsChapterLast>false</IsChapterLast>
+    <invitationtype>false</invitationtype>
+  </Stage>
+  <Stage id="37771003">
+    <Name>Reception of The Gray Cinderella - Early Access (Test)</Name>
+    <Wave>
+      <Unit>37770003</Unit>
+      <Formation>41</Formation>
+      <FormationType>Default</FormationType>
+      <AvailableUnit>5</AvailableUnit>
+      <emotionCardList />
+    </Wave>
+    <StageType>Invitation</StageType>
+    <FloorNum>10</FloorNum>
+    <Chapter>1</Chapter>
     <Invitation Combine="BookValue">
       <Value>1</Value>
       <Num>1</Num>

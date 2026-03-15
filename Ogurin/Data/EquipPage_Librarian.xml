@@ -2,7 +2,7 @@
 <BookXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Version>1.1</Version>
   <Book ID="37777771">
-    <Name>Page of the Grey Cinderella</Name>
+    <Name>Page of the Gray Cinderella</Name>
     <TextId>-1</TextId>
     <BookIcon />
     <EquipEffect>
@@ -22,11 +22,12 @@
       <MaxPlayPoint>4</MaxPlayPoint>
       <StartPlayPoint>4</StartPlayPoint>
       <AddedStartDraw>0</AddedStartDraw>
+      <Passive Pid="@origin">10008</Passive>
       <Passive>37770001</Passive>
       <Passive>37770002</Passive>
       <Passive>37770003</Passive>
       <Passive>37770004</Passive>
-      <Passive Pid="@origin">10008</Passive>
+      <Passive>37770008</Passive>
     </EquipEffect>
     <Rarity>Unique</Rarity>
     <CharacterSkin>Pameli</CharacterSkin>

@@ -7,7 +7,7 @@
     <BookIcon />
     <EquipEffect>
       <HpReduction>0</HpReduction>
-      <HP>1000</HP>
+      <HP>1500</HP>
       <DeadLine>0</DeadLine>
       <Break>500</Break>
       <SpeedMin>6</SpeedMin>
@@ -19,14 +19,14 @@
       <SBResist>Normal</SBResist>
       <PBResist>Normal</PBResist>
       <HBResist>Normal</HBResist>
-      <MaxPlayPoint>9</MaxPlayPoint>
-      <StartPlayPoint>9</StartPlayPoint>
+      <MaxPlayPoint>6</MaxPlayPoint>
+      <StartPlayPoint>6</StartPlayPoint>
       <AddedStartDraw>0</AddedStartDraw>
       <Passive>37770006</Passive>
       <Passive>37770002</Passive>
       <Passive>37770003</Passive>
       <Passive>37770004</Passive>
-      <Passive>37770005</Passive>
+      <Passive>37770007</Passive>
     </EquipEffect>
     <Rarity>Unique</Rarity>
     <CharacterSkin>Zwei_Yellow</CharacterSkin>
@@ -72,6 +72,46 @@
     <NotEquip>false</NotEquip>
     <RandomFace>false</RandomFace>
     <SpeedDiceNum>1</SpeedDiceNum>
+    <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
+  </Book>
+    <Book ID="37770003">
+    <Name>The Gray Cinderella - EA Ver</Name>
+    <TextId>-1</TextId>
+    <BookIcon />
+    <EquipEffect>
+      <HpReduction>0</HpReduction>
+      <HP>1500</HP>
+      <DeadLine>0</DeadLine>
+      <Break>500</Break>
+      <SpeedMin>6</SpeedMin>
+      <Speed>9</Speed>
+      <SpeedDiceNum>0</SpeedDiceNum>
+      <SResist>Normal</SResist>
+      <PResist>Normal</PResist>
+      <HResist>Normal</HResist>
+      <SBResist>Normal</SBResist>
+      <PBResist>Normal</PBResist>
+      <HBResist>Normal</HBResist>
+      <MaxPlayPoint>6</MaxPlayPoint>
+      <StartPlayPoint>6</StartPlayPoint>
+      <AddedStartDraw>0</AddedStartDraw>
+      <Passive>37770006</Passive>
+      <Passive>37770002</Passive>
+      <Passive>37770003</Passive>
+      <Passive>37770004</Passive>
+      <Passive>37770005</Passive>
+      <Passive>37770007</Passive>
+    </EquipEffect>
+    <Rarity>Unique</Rarity>
+    <CharacterSkin>Zwei_Yellow</CharacterSkin>
+    <CharacterSkinType>Lor</CharacterSkinType>
+    <SkinGender>N</SkinGender>
+    <Chapter>7</Chapter>
+    <Episode>-1</Episode>
+    <RangeType>Hybrid</RangeType>
+    <NotEquip>false</NotEquip>
+    <RandomFace>false</RandomFace>
+    <SpeedDiceNum>2</SpeedDiceNum>
     <SuccessionPossibleNumber>9</SuccessionPossibleNumber>
   </Book>
 </BookXmlRoot>

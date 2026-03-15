@@ -11,5 +11,11 @@
       <BookName />
       <TextList />
     </BookDesc>
+    <BookDesc BookID="37777771">
+      <BookName>Page of the Gray Cinderella</BookName>
+      <TextList>
+        <Desc />
+      </TextList>
+    </BookDesc>
   </bookDescList>
 </BookDescRoot>

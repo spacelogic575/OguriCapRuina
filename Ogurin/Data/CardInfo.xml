@@ -124,7 +124,7 @@
     <Rarity>Unique</Rarity>
     <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
     <Script>CindGray_FlashForward</Script>
-    <ScriptDesc>[Combat Start] The first Dice of every Combat Page used by this unit this Scene gains Power equal to Haste on self (Max 5)</ScriptDesc>
+    <ScriptDesc>[Combat Start] The first Dice of every Combat Page used by this unit this Scene gains Power equal to Haste on self (Max, 5)</ScriptDesc>
     <BehaviourList>
       <Behaviour Min="6" Dice="15" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="CindGray_FlashForward_1" Desc="[On Clash Win] Gain 3 Haste next Scene" />
     </BehaviourList>
@@ -201,5 +201,19 @@
     <Priority>0</Priority>
     <MaxCooltimeForEgo>4</MaxCooltimeForEgo> 
   </Card>
-
+  
+  <Card ID="37770013">
+    <Name>Countermeasures</Name>
+    <TextId>-1</TextId>
+    <Artwork>CindGray_Placeholder.png</Artwork>
+    <Rarity>Rare</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="4" Dice="6" Type="Standby" Detail="Guard" Motion="G" Script="CindGray_Countermeasures" />
+    </BehaviourList>
+    <Chapter>7</Chapter>
+    <Priority>0</Priority>
+  </Card>
 </DiceCardXmlRoot>

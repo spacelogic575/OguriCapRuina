@@ -3,13 +3,24 @@
   <Version>1.1</Version>
   <Deck ID="37770001">
     <Card>37770001</Card>
+	<Card>37770001</Card>
     <Card>37770002</Card>
+	<Card>37770002</Card>
     <Card>37770003</Card>
+	<Card>37770003</Card>
     <Card>37770004</Card>
-    <Card>37770006</Card>
-    <Card>37770007</Card>
-    <Card>37770008</Card>
-    <Card>37770009</Card>
-    <Card>37770010</Card>
+	<Card>37770004</Card>
+    <Card>37770005</Card>
+  </Deck>
+   <Deck ID="37770003">
+    <Card>37770001</Card>
+	<Card>37770001</Card>
+    <Card>37770002</Card>
+	<Card>37770002</Card>
+    <Card>37770003</Card>
+	<Card>37770003</Card>
+    <Card>37770004</Card>
+	<Card>37770004</Card>
+    <Card>37770005</Card>
   </Deck>
 </DeckXmlRoot>

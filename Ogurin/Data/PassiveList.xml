@@ -15,7 +15,12 @@
 	
 Once per Wave, upon taking lethal damage, negate it and gain damage immunity for the rest of the Scene instead. When this occurs, recover from Stagger and heal 50% of your Max HP, and change The Gray Cinderella status to The Ashen Monster at the start of the next Scene.
 	
-At Emotion Level 2+, add 'Triumphant Pulse' to the Personal E.G.O hand. While in The Ashen Monster form, also add 'Dawnlit Ashen Trail: Cinderella Gray' to your E.G.O hand.</Desc>
+At Emotion Level 2+, add 'Triumphant Pulse' to the Personal E.G.O hand. While in The Ashen Monster form, also add 'Dawnlit Ashen Trail: Cinderella Gray' to your E.G.O hand.
+
+Gain 1 Shin (心) - The Gray Cinderella upon restoring every 24% max HP total (counts while at max HP, but reduces the count to only 25% of the healed value when at max HP). 
+
+Whenever you have 5 Shin (心) - The Gray Cinderella, expend them to gain 1 Mang (望) - The Gray Cinderella (Up to 2).
+</Desc>
   </Passive>
   <Passive ID="37770002">
     <Negative>false</Negative>
@@ -28,7 +33,7 @@ At Emotion Level 2+, add 'Triumphant Pulse' to the Personal E.G.O hand. While in
     <Cost>7</Cost>
     <Script>CindGray_StarlightOfKasamatsu</Script>
     <Name>Starlight of Kasamatsu</Name>
-    <Desc>Gain 1 Haste next Scene. If this unit is in the upper half of the percentile of the faster units, gain 3 Haste instead. If the Speed difference between this unit and the target are greater than 3, the target loses Power equal to the Speed difference reduced by 2</Desc>
+    <Desc>Gain 1 Haste next Scene. If this unit is in the upper half of the percentile of the faster units, gain 3 Haste instead. If the Speed difference between this unit and the target are greater than 3, the target loses Power equal to the Speed difference reduced by 2.</Desc>
   </Passive>
   <Passive ID="37770003">
     <Negative>false</Negative>
@@ -43,7 +48,7 @@ At Emotion Level 2+, add 'Triumphant Pulse' to the Personal E.G.O hand. While in
     <Name>Monster</Name>
     <Desc>At the end of the Scene, take 1% max HP damage. This increases by 1.5% per Scene (max of 12% total, additive). Gain Craving Monster / Hungry Monster / Starved Monster based on remaining HP on self. At the start of the Scene, if a non-allied unit Staggered the previous Turn, healing effects are x1.46 more effective, x1.738 if they were defeated instead. Additionally, attacking Staggered enemies restores HP based on the Monster status effect</Desc>
   </Passive>
-    <Passive ID="37770004">
+  <Passive ID="37770004">
     <Negative>false</Negative>
     <IsHide>false</IsHide>
     <Rarity>Unique</Rarity>
@@ -56,7 +61,7 @@ At Emotion Level 2+, add 'Triumphant Pulse' to the Personal E.G.O hand. While in
     <Name>Undying Flame</Name>
     <Desc>Upon taking lethal damage, and all other death prevention effects have been expended, become briefly immune to all forms of damage and gain a surge of strength. When triggered, recover from Stagger next turn, become immune to damage and stagger damage for the next turn, recover all Light, draw 5 pages, become unable to be healed, and gain +2 Min and Max Power. On the end of that particular Scene, die.</Desc>
   </Passive>
-   <Passive ID="37770005">
+  <Passive ID="37770005">
     <Negative>false</Negative>
     <IsHide>true</IsHide>
     <Rarity>Unique</Rarity>
@@ -66,8 +71,8 @@ At Emotion Level 2+, add 'Triumphant Pulse' to the Personal E.G.O hand. While in
     <InnerType>-1</InnerType>
     <Cost>7</Cost>
     <Script>CindGray_BossDiceAdd</Script>
-    <Name>Speed - Triple 7s</Name>
-    <Desc>Gain +3 Speed dice.</Desc>
+    <Name>Triple Seven</Name>
+    <Desc>Gain +3 Speed Dice Slots.</Desc>
   </Passive>
   <Passive ID="37770006">
     <Negative>false</Negative>
@@ -80,12 +85,40 @@ At Emotion Level 2+, add 'Triumphant Pulse' to the Personal E.G.O hand. While in
     <Cost>777</Cost>
     <Script>CindGray_BossManager</Script>
     <Name>The Gray Cinderella / The Ashen Monster</Name>
-    <Desc>At the start of each Wave, heal to 50% Max HP if below, and gain The Gray Cinderella passive.
+    <Desc>At the start of each Act, heal 25% of your Max HP and gain The Gray Cinderella/Ashen Monster passive based on the current phase.
 
-Generate 1 Shin upon hitting a target 5 times, killing a target, or losing 25% of Max HP.
+Generate 1 Shin (心) - The Gray Cinderella upon hitting a target 5 times, killing a target, or losing 25% of Max HP.
 
-Once per Wave, upon taking lethal damage, negate it and gain damage immunity for the rest of the Scene instead. When this occurs, recover from Stagger and change The Gray Cinderella status to The Ashen Monster at the start of the next Scene.
+Permanently gain 1 Mang (望) - The Gray Cinderella and change to the Ashen Monster upon reaching 40% of Max HP. HP does not fall below 40% before this occurs.
 
-Upon taking lethal damage, negate it and gain damage immunity for the rest of the Scene. When this occurs, recover from Stagger and heal self for 50% of your Max HP at the start of the next Scene.</Desc>
+Additionally, permanently gain 1 more Mang (望) - The Gray Cinderella and heal up to 50% of Max HP the first time this unit takes lethal damage.
+
+This unit's Undying Flame passive lasts for 2 Scenes instead of 1.</Desc>
+  </Passive>
+  <Passive ID="37770007">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>9</Cost>
+    <Script>CindGray_BossIndomitable</Script>
+    <Name>Indomitable</Name>
+    <Desc>Take 1 less damage and stagger damage (Including damage from non-attacks). Whenever receiving a one-sided attack and the counter queue is empty, there is a chance to respond with [Countermeasures] skill. Every time this is used, inflict 1 Bind on self.</Desc>
+  </Passive>
+  <Passive ID="37770008">
+    <Negative>false</Negative>
+    <IsHide>false</IsHide>
+    <Rarity>Unique</Rarity>
+    <Lock>false</Lock>
+    <CanGivePassive>false</CanGivePassive>
+    <CanReceivePassive>false</CanReceivePassive>
+    <InnerType>-1</InnerType>
+    <Cost>9</Cost>
+    <Script>CindGray_PlayerIndomitable</Script>
+    <Name>Indomitable</Name>
+    <Desc>Take 1 less damage and stagger damage (Including damage from non-attacks). Whenever receiving a one-sided attack and the counter queue is empty, there is a chance to respond with [Countermeasures] skill (Twice per Scene). Every time this is used, inflict 1 Bind on self.</Desc>
   </Passive>
 </PassiveXmlRoot>
