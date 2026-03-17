@@ -17,7 +17,9 @@ Once per Wave, upon taking lethal damage, negate it and gain damage immunity for
 	
 At Emotion Level 2+, add 'Triumphant Pulse' to the Personal E.G.O hand. While in The Ashen Monster form, also add 'Dawnlit Ashen Trail: Cinderella Gray' to your E.G.O hand.
 
-Gain 1 Shin (心) - The Gray Cinderella upon restoring every 24% max HP total (counts while at max HP, but reduces the count to only 25% of the healed value when at max HP). 
+Gain 1 Shin (心) - The Gray Cinderella upon:
+- Healing 25 HP,
+- Taking 25 HP worth of damage.
 
 Whenever you have 5 Shin (心) - The Gray Cinderella, expend them to gain 1 Mang (望) - The Gray Cinderella (Up to 2).
 </Desc>
@@ -33,7 +35,7 @@ Whenever you have 5 Shin (心) - The Gray Cinderella, expend them to gain 1 Mang
     <Cost>7</Cost>
     <Script>CindGray_StarlightOfKasamatsu</Script>
     <Name>Starlight of Kasamatsu</Name>
-    <Desc>Gain 1 Haste next Scene. If this unit is in the upper half of the percentile of the faster units, gain 3 Haste instead. If the Speed difference between this unit and the target are greater than 3, the target loses Power equal to the Speed difference reduced by 2.</Desc>
+    <Desc>Gain 1 Haste next Scene. If this unit is faster than half of the units on field, gain 3 Haste instead. If the Speed difference between this unit and the target are greater than 3, the target loses Power equal to the Speed difference reduced by 2.</Desc>
   </Passive>
   <Passive ID="37770003">
     <Negative>false</Negative>
@@ -46,7 +48,9 @@ Whenever you have 5 Shin (心) - The Gray Cinderella, expend them to gain 1 Mang
     <Cost>7</Cost>
     <Script>CindGray_Monster</Script>
     <Name>Monster</Name>
-    <Desc>At the end of the Scene, take 1% max HP damage. This increases by 1.5% per Scene (max of 12% total, additive). Gain Craving Monster / Hungry Monster / Starved Monster based on remaining HP on self. At the start of the Scene, if a non-allied unit Staggered the previous Turn, healing effects are x1.46 more effective, x1.738 if they were defeated instead. Additionally, attacking Staggered enemies restores HP based on the Monster status effect</Desc>
+    <Desc>At the end of the Scene, take 1% max HP damage. This increases by 1.5% per Scene (max of 12% total, additive). 
+	
+Gain Craving Monster / Hungry Monster / Starved Monster based on remaining HP on self. At the start of the Scene, if a non-allied unit Staggered the previous Turn, healing effects are x1.46 more effective, x1.738 if they were defeated instead. Additionally, attacking Staggered enemies restores HP based on the Monster status effect</Desc>
   </Passive>
   <Passive ID="37770004">
     <Negative>false</Negative>
@@ -86,8 +90,13 @@ Whenever you have 5 Shin (心) - The Gray Cinderella, expend them to gain 1 Mang
     <Script>CindGray_BossManager</Script>
     <Name>The Gray Cinderella / The Ashen Monster</Name>
     <Desc>At the start of each Act, heal 25% of your Max HP and gain The Gray Cinderella/Ashen Monster passive based on the current phase.
+	
+Gain x1.5 the amount of Poise from all sources.
 
-Generate 1 Shin (心) - The Gray Cinderella upon hitting a target 5 times, killing a target, or losing 25% of Max HP.
+Gain 1 Shin (心) - The Gray Cinderella upon:
+- Hitting a target 5 times, 
+- Killing a target,
+- Losing 25% of your Max HP.
 
 Permanently gain 1 Mang (望) - The Gray Cinderella and change to the Ashen Monster upon reaching 40% of Max HP. HP does not fall below 40% before this occurs.
 
@@ -106,7 +115,9 @@ This unit's Undying Flame passive lasts for 2 Scenes instead of 1.</Desc>
     <Cost>9</Cost>
     <Script>CindGray_BossIndomitable</Script>
     <Name>Indomitable</Name>
-    <Desc>Take 1 less damage and stagger damage (Including damage from non-attacks). Whenever receiving a one-sided attack and the counter queue is empty, there is a chance to respond with [Countermeasures] skill. Every time this is used, inflict 1 Bind on self.</Desc>
+    <Desc>Take 1 less damage and stagger damage from all sources (Including damage from non-attacks). 
+	
+Whenever receiving a one-sided attack and the counter queue is empty, there is a chance to respond with [Countermeasures] skill. Every time this is used, inflict 1 Bind on self.</Desc>
   </Passive>
   <Passive ID="37770008">
     <Negative>false</Negative>
@@ -119,6 +130,8 @@ This unit's Undying Flame passive lasts for 2 Scenes instead of 1.</Desc>
     <Cost>9</Cost>
     <Script>CindGray_PlayerIndomitable</Script>
     <Name>Indomitable</Name>
-    <Desc>Take 1 less damage and stagger damage (Including damage from non-attacks). Whenever receiving a one-sided attack and the counter queue is empty, there is a chance to respond with [Countermeasures] skill (Twice per Scene). Every time this is used, inflict 1 Bind on self.</Desc>
+    <Desc>Take 1 less damage and stagger damage from all sources (Including damage from non-attacks). 
+	
+Whenever receiving a one-sided attack and the counter queue is empty, there is a chance to respond with [Countermeasures] skill (Twice per Scene). Every time this is used, inflict 1 Bind on self.</Desc>
   </Passive>
 </PassiveXmlRoot>

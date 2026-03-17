@@ -3,7 +3,7 @@
   <effectTextList>
     <BattleEffectText ID="Poise">
       <Name>Poise</Name>
-      <Desc>Gain {0} x 5% chance to Crit. Lose 1 Stack on Crit and at the end of the Scene. Crits increase the final roll value by x1.2.</Desc>
+      <Desc>Gain {0} x 5% chance to land a Crit. Lose 1 Stack on Critting and at the end of each Scene. Critting will increase the final roll value of the dice by x1.2.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="Rupture">
@@ -34,19 +34,23 @@
 	<BattleEffectText ID="OguriCraving">
 		<Name>Craving Monster</Name>
 		<Desc>On using a Combat Page, restore 1 Light.
+		
 [On Hit] If the target is Staggered, recover 8% of missing HP (4% for Boss).</Desc>
 	  </BattleEffectText>
 
 	  <BattleEffectText ID="OguriHungry">
 		<Name>Hungry Monster</Name>
 		<Desc>On using a Combat Page, restore 1-2 Light. All Dice on this character gain +1 Max value.
+		
 [On Hit] If the target is Staggered, recover 12% of missing HP (6% for Boss).</Desc>
 	  </BattleEffectText>
 
 	  <BattleEffectText ID="OguriStarving">
 		<Name>Starved Monster</Name>
 		<Desc>On using a Combat Page, restore 1-3 Light and have a 33% chance to draw 1 Page. All Dice on this character gain +1 Min and +2 Max value.
+		
 [On Hit] If the target is Staggered, recover 16% of missing HP (8% for Boss).
+
 (If your HP goes above 50% HP, self-damage from Monster passive is multiplied by 3x (2x for Boss) for 3 Scenes.)</Desc>
 	  </BattleEffectText>
 	
@@ -54,8 +58,10 @@
       <Name>The Gray Cinderella</Name>
       <Desc>At the start of the Scene, when this unit has not taken any damage to their HP the previous Scene, restore 4% max HP (does not count the Monster Passive’s effect). 
 For every instance this triggers, further increase this effect by 0.8% flat (additive, max 4% total), resets when it stops triggering consecutively. 
+
 If HP is greater than 75%, also gain “Let My Name Rock Earth”. 
-At the end of the Scene, gain 1 Strength for every 25% missing HP next Scene. 
+
+At the end of the Scene, gain 1 Poise and 1 Strength for every 25% missing HP next Scene. 
 	  </Desc>
     </BattleEffectText>
 
@@ -63,13 +69,19 @@ At the end of the Scene, gain 1 Strength for every 25% missing HP next Scene.
       <Name>The Ashen Monster</Name>
       <Desc>At the start of the Scene, when this unit has not taken any damage to their HP the previous Scene, restore 8% max HP. 
 For every instance this triggers, further increase the effect by 1% flat (max, 10% total). 
+
 If HP is greater than 60%, also gain “Let My Name Shake Heaven and Earth”. 
-At the end of the Scene, gain 1 Damage Up for every 15% missing HP and 1 Strength for every 20% missing HP next Scene.</Desc>
+
+At the end of the Scene, gain 1 Poise and 1 Damage Up for every 15% missing HP and 1 Strength for every 20% missing HP next Scene.</Desc>
     </BattleEffectText>
 	
 	<BattleEffectText ID="CindGray_Shield">
       <Name>Shield</Name>
-      <Desc>Whenever taking damage, shield will be reduced instead of your HP. Current shield HP: {0}</Desc>
+      <Desc>Whenever taking damage from external sources, Shield HP will be reduced first instead of your HP. 
+
+At the end of each Scene, any leftover Shield exceeding 30% of a character's Max HP will be removed.
+
+Current shield HP: {0}</Desc>
     </BattleEffectText>
   </effectTextList>
 </BattleEffectTextRoot>

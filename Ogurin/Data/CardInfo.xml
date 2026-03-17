@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DiceCardXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Version>1.1</Version>
-  
   <Card ID="37770001">
     <Name>Time to Awaken</Name>
     <TextId>-1</TextId>
@@ -11,13 +10,21 @@
     <Script>CindGray_TimeToAwaken</Script>
     <ScriptDesc>On Use Gain 2 Poise. At 6+ Poise, restore 2 Light</ScriptDesc>
     <BehaviourList>
-      <Behaviour Min="2" Dice="6" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="CindGray_TimeToAwaken_1" Desc="[On Clash Win] Gain 2 Poise" />
-      <Behaviour Min="3" Dice="6" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_TimeToAwaken_2" Desc="[On Crit] Deal bonus damage equal to Speed difference" />
+      <Behaviour Min="2" Dice="6" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="CindGray_TimeToAwaken_1" ActionScript="" Desc="[On Clash Win] Gain 2 Poise" />
+      <Behaviour Min="3" Dice="6" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_TimeToAwaken_2" ActionScript="" Desc="[On Crit] Deal bonus damage equal to Speed difference" />
     </BehaviourList>
     <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
     <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
   </Card>
-
   <Card ID="37770002">
     <Name>Steady Effort</Name>
     <TextId>-1</TextId>
@@ -27,13 +34,21 @@
     <Script>CindGray_SteadyEffort</Script>
     <ScriptDesc>Deal +15% more damage for every 2 Haste (max, 100%). [On Use] Draw 1 Page. If this unit has one of the fastest Speed Dice, draw 1 additional Page.</ScriptDesc>
     <BehaviourList>
-      <Behaviour Min="3" Dice="6" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="CindGray_SteadyEffort_1" Desc="[On Hit] Inflict 2 Rupture. [On Crit] Inflict 2 Rupture" />
-      <Behaviour Min="4" Dice="6" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_SteadyEffort_2" Desc="[On Hit] Deal bonus damage equal to 1/4th of Haste" />
+      <Behaviour Min="3" Dice="6" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="CindGray_SteadyEffort_1" ActionScript="" Desc="[On Hit] Inflict 2 Rupture. [On Crit] Inflict 2 Rupture" />
+      <Behaviour Min="4" Dice="6" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_SteadyEffort_2" ActionScript="" Desc="[On Hit] Deal bonus damage equal to 1/4th of Haste" />
     </BehaviourList>
     <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
     <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
   </Card>
-
   <Card ID="37770003">
     <Name>One Brave Step</Name>
     <TextId>-1</TextId>
@@ -43,12 +58,20 @@
     <Script>CindGray_OneBraveStep</Script>
     <ScriptDesc>[On Use] Restore 2 Light. If afflicted with Bind, restore 1 additional Light</ScriptDesc>
     <BehaviourList>
-      <Behaviour Min="4" Dice="10" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="CindGray_OneBraveStep_1" Desc="[On Clash Win] Halve Bind on self (once per Scene). Add a 3~8 Counter Block Dice to queue" />
+      <Behaviour Min="4" Dice="10" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="CindGray_OneBraveStep_1" ActionScript="" Desc="[On Clash Win] Halve Bind on self (once per Scene). Add a 3~8 Counter Block Dice to queue" />
     </BehaviourList>
     <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
     <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
   </Card>
-
   <Card ID="37770004">
     <Name>Fruits of Labor</Name>
     <TextId>-1</TextId>
@@ -58,14 +81,22 @@
     <Script>CindGray_FruitsOfLabor</Script>
     <ScriptDesc>Dice on this Page have a 50% chance of not reducing Rupture stacks when this unit has 5+ Haste. [On Use] Gain 3 Poise</ScriptDesc>
     <BehaviourList>
-      <Behaviour Min="3" Dice="8" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="CindGray_FruitsOfLabor_1" Desc="[On Hit] Inflict 3 Rupture. If target has 15+ Rupture, apply 2 more Rupture" />
-      <Behaviour Min="4" Dice="6" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" Desc="" />
-      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_FruitsOfLabor_3" Desc="[On Hit] Deal bonus damage equal to 1/3rd of Haste" />
+      <Behaviour Min="3" Dice="8" Type="Atk" Detail="Hit" Motion="H" MotionDefault="N" EffectRes="" Script="CindGray_FruitsOfLabor_1" ActionScript="" Desc="[On Hit] Inflict 3 Rupture. If target has 15+ Rupture, apply 2 more Rupture" />
+      <Behaviour Min="4" Dice="6" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_FruitsOfLabor_3" ActionScript="" Desc="[On Hit] Deal bonus damage equal to 1/3rd of Haste" />
     </BehaviourList>
     <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
     <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
   </Card>
-
   <Card ID="37770005">
     <Name>Racing the Flow</Name>
     <TextId>-1</TextId>
@@ -75,14 +106,22 @@
     <Script>CindGray_RacingTheFlow</Script>
     <ScriptDesc>[Combat Start] Evade Die gain +3 Power this Scene</ScriptDesc>
     <BehaviourList>
-      <Behaviour Min="3" Dice="8" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="CindGray_RacingTheFlow_1" Desc="[On Clash Win] 35% chance to gain 1 Haste next Scene" />
-      <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_RacingTheFlow_2" Desc="[On Hit] Deal bonus damage equal to Light" />
-      <Behaviour Min="4" Dice="6" Type="Standby" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" Desc="" />
+      <Behaviour Min="3" Dice="8" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="CindGray_RacingTheFlow_1" ActionScript="" Desc="[On Clash Win] 35% chance to gain 1 Haste next Scene" />
+      <Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_RacingTheFlow_2" ActionScript="" Desc="[On Hit] Deal bonus damage equal to Light" />
+      <Behaviour Min="4" Dice="6" Type="Standby" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
     <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
   </Card>
-
   <Card ID="37770006">
     <Name>Highlander</Name>
     <TextId>-1</TextId>
@@ -92,14 +131,22 @@
     <Script>CindGray_Highlander</Script>
     <ScriptDesc>[On Use] Restore Light equal to half of Haste on self (rounded down). If 3 or more Light was restored, draw Pages equal to half of Light restored (rounded up).</ScriptDesc>
     <BehaviourList>
-      <Behaviour Min="5" Dice="8" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" Desc="" />
-      <Behaviour Min="5" Dice="10" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="CindGray_Highlander_2" Desc="[On Clash Win] Double Stagger Damage dealt from deflect. Last Dice gains +2 Min and Max value." />
-      <Behaviour Min="3" Dice="6" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="10" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="CindGray_Highlander_2" ActionScript="" Desc="[On Clash Win] Double Stagger Damage dealt from deflect. Last Dice gains +2 Min and Max value." />
+      <Behaviour Min="3" Dice="6" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
     <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
   </Card>
-
   <Card ID="37770007">
     <Name>Photon Arc</Name>
     <TextId>-1</TextId>
@@ -109,14 +156,22 @@
     <Script>CindGray_PhotonArc</Script>
     <ScriptDesc>[Combat Start] Whenever this unit wins at least 2 Clashes on a Page they use, all their non-Counter Dice gain 1 Power for the Scene. [On Use] Restore Light equal to half of Haste on self, rounded down. If 3 or more Light was restored, draw Pages equal to half of Light restored (rounded up)</ScriptDesc>
     <BehaviourList>
-      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_PhotonArc_1" Desc="[On Crit] Target's Resistance is treated as Fatal" />
-      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_PhotonArc_2" Desc="[On Crit] Target's Resistance is treated as Fatal" />
-      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="" Desc="" />
+      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="FX_Mon_Claw_Slash_Up" Script="CindGray_PhotonArc_1" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="FX_Mon_Claw_Slash_Down" Script="CindGray_PhotonArc_2" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="8" Type="Standby" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="FX_Mon_Claw_Slash_Up" Script="" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
     <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
   </Card>
-
   <Card ID="37770008">
     <Name>Flash Forward</Name>
     <TextId>-1</TextId>
@@ -126,45 +181,69 @@
     <Script>CindGray_FlashForward</Script>
     <ScriptDesc>[Combat Start] The first Dice of every Combat Page used by this unit this Scene gains Power equal to Haste on self (Max, 5)</ScriptDesc>
     <BehaviourList>
-      <Behaviour Min="6" Dice="15" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="" Script="CindGray_FlashForward_1" Desc="[On Clash Win] Gain 3 Haste next Scene" />
+      <Behaviour Min="6" Dice="15" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="FX_Mon_Bayyard_SPiercing" Script="CindGray_FlashForward_1" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
     <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
   </Card>
-
   <Card ID="37770009">
     <Name>Triumphant Pulse</Name>
     <TextId>-1</TextId>
     <Artwork>CindGray_Placeholder.png</Artwork>
     <Rarity>Unique</Rarity>
-    <Spec Range="FarAreaEach" Cost="5" Affection="Team" EmotionLimit="0" />
+    <Spec Range="Near" Cost="5" Affection="One" EmotionLimit="0" />
     <Script>CindGray_TriumphantPulse</Script>
     <ScriptDesc>Dice on this Page deal 1% more damage for every 0.7% missing HP on self. At 85% missing HP, this automatically maxes out to 70%. Additionally, Crits on this Page lose twice the Poise, but increases damage dealt by Crits to x1.5</ScriptDesc>
     <BehaviourList>
-      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_TriumPulse_1" Desc="[On Hit] Inflict 3 Rupture" />
-      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_TriumPulse_2" Desc="[On Hit] Inflict 3 Rupture" />
-      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_TriumPulse_3" Desc="[On Hit] Inflict 5 Rupture. [On Crit] Target's Resistance is treated as Weak" />
-      <Behaviour Min="6" Dice="10" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_TriumPulse_4" Desc="[On Hit] Inflict 5 Rupture. [On Crit] Target's Resistance is treated as Weak" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_1" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_2" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_3" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="10" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_4" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
     <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
   </Card>
-
   <Card ID="37770010">
     <Name>Dawnlit Ashen Trail: Cinderella Gray</Name>
     <TextId>-1</TextId>
     <Artwork>CindGray_Placeholder.png</Artwork>
     <Rarity>Unique</Rarity>
-    <Spec Range="FarArea" Cost="7" Affection="Team" EmotionLimit="0" />
+    <Spec Range="Near" Cost="7" Affection="One" EmotionLimit="0" />
     <Script>CindGray_DawnlitAshenTrail</Script>
-    <ScriptDesc>Dice on this Page deal 1% more damage for every 0.5% missing HP on self. At 50% missing HP, this automatically maxes out to 150%. Additionally, Crits on this Page lose twice the Poise, but increases damage dealt by Crits to x2.0</ScriptDesc>
+    <ScriptDesc>Dice on this Page deal 1% more damage for every 0.5% missing HP on self. At below 50% HP, this automatically maxes out to 150%. Additionally, Crits on this Page lose twice the Poise, but increases damage dealt by Crits to x2.0</ScriptDesc>
     <BehaviourList>
-      <Behaviour Min="14" Dice="38" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_Dawnlit_1" Desc="[On Hit] Consume all Rupture. [On Crit] Target's Resistance is treated as Fatal" />
+      <Behaviour Min="14" Dice="38" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Esther_SpecialAtk" Script="CindGray_Dawnlit_1" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
     <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
   </Card>
-  
   <Card ID="37770011">
     <Name>Triumphant Pulse</Name>
     <TextId>-1</TextId>
@@ -175,16 +254,23 @@
     <Script>CindGray_TriumphantPulse</Script>
     <ScriptDesc>Dice on this Page deal 1% more damage for every 0.7% missing HP on self. At 85% missing HP, this automatically maxes out to 70%. Additionally, Crits on this Page lose twice the Poise, but increases damage dealt by Crits to x1.5</ScriptDesc>
     <BehaviourList>
-      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_TriumPulse_1" Desc="[On Hit] Inflict 3 Rupture" />
-      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_TriumPulse_2" Desc="[On Hit] Inflict 3 Rupture" />
-      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_TriumPulse_3" Desc="[On Hit] Inflict 5 Rupture. [On Crit] Target's Resistance is treated as Weak" />
-      <Behaviour Min="6" Dice="10" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_TriumPulse_4" Desc="[On Hit] Inflict 5 Rupture. [On Crit] Target's Resistance is treated as Weak" />
+      <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_1" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_2" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_3" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="10" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_4" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
     <Priority>0</Priority>
-    <MaxCooltimeForEgo>3</MaxCooltimeForEgo> 
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>3</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
   </Card>
-
   <Card ID="37770012">
     <Name>Dawnlit Ashen Trail: Cinderella Gray</Name>
     <TextId>-1</TextId>
@@ -193,15 +279,22 @@
     <Option>EgoPersonal</Option> 
     <Spec Range="FarArea" Cost="7" Affection="Team" EmotionLimit="0" />
     <Script>CindGray_DawnlitAshenTrail</Script>
-    <ScriptDesc>Dice on this Page deal 1% more damage for every 0.5% missing HP on self. At 50% missing HP, this automatically maxes out to 150%. Additionally, Crits on this Page lose twice the Poise, but increases damage dealt by Crits to x2.0</ScriptDesc>
+    <ScriptDesc>Dice on this Page deal 1% more damage for every 0.5% missing HP on self. At below 50% HP, this automatically maxes out to 150%. Additionally, this page consumes 2 Poise, but deal x2 Critical damage.</ScriptDesc>
     <BehaviourList>
-      <Behaviour Min="14" Dice="38" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="" Script="CindGray_Dawnlit_1" Desc="[On Hit] Consume all Rupture. [On Crit] Target's Resistance is treated as Fatal" />
+      <Behaviour Min="14" Dice="38" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Esther_SpecialAtk" Script="CindGray_Dawnlit_1" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
     <Priority>0</Priority>
-    <MaxCooltimeForEgo>4</MaxCooltimeForEgo> 
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>4</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
   </Card>
-  
   <Card ID="37770013">
     <Name>Countermeasures</Name>
     <TextId>-1</TextId>
@@ -211,9 +304,18 @@
     <Script />
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="4" Dice="6" Type="Standby" Detail="Guard" Motion="G" Script="CindGray_Countermeasures" />
+      <Behaviour Min="4" Dice="6" Type="Standby" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="CindGray_Countermeasures" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
     <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
   </Card>
 </DiceCardXmlRoot>
