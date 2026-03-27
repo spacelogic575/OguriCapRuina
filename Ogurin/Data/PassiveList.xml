@@ -48,9 +48,16 @@ Whenever you have 5 Shin (心) - The Gray Cinderella, expend them to gain 1 Mang
     <Cost>7</Cost>
     <Script>CindGray_Monster</Script>
     <Name>Monster</Name>
-    <Desc>At the end of the Scene, take 1% max HP damage. This increases by 1.5% per Scene (max of 12% total, additive). 
+    <Desc>At the end of the Scene, take 1% max HP damage. This increases by 1.5% per Scene (max of 12% total, additive). Recover 20% of your Max HP whenever defeating a target.
 	
-Gain Craving Monster / Hungry Monster / Starved Monster based on remaining HP on self. At the start of the Scene, if a non-allied unit Staggered the previous Turn, healing effects are x1.46 more effective, x1.738 if they were defeated instead. Additionally, attacking Staggered enemies restores HP based on the Monster status effect</Desc>
+Unlock Craving Monster / Hungry Monster / Starved Monster status when dropping equal or below 80%/60%/40% of your Max HP, checked at the start of each Scene. Whenever healing above the HP thresholds, there is a scene of grace period to prevent getting said status from being reassigned, after which the status will be downgraded to a lower tier. This does not apply when progressing to an higher tier.  
+
+Whenever this unit's current HP is above the thresholds relevant to the statuses mentioned above, deal twice as much Rupture damage, but also take Fixed Damage equal to the amount of the target's Rupture stacks. This damage bypasses Shield.
+
+Gain the following benefits, triggerable up to 3 times per Scene each:
+- Whenever dealing 3+ Rupture damage at once, gain 1 Poise.
+- Whenever rolling a Critical Hit, inflict 3 Rupture to the target.
+</Desc>
   </Passive>
   <Passive ID="37770004">
     <Negative>false</Negative>
@@ -63,7 +70,9 @@ Gain Craving Monster / Hungry Monster / Starved Monster based on remaining HP on
     <Cost>7</Cost>
     <Script>CindGray_UndyingFlame</Script>
     <Name>Undying Flame</Name>
-    <Desc>Upon taking lethal damage, and all other death prevention effects have been expended, become briefly immune to all forms of damage and gain a surge of strength. When triggered, recover from Stagger next turn, become immune to damage and stagger damage for the next turn, recover all Light, draw 5 pages, become unable to be healed, and gain +2 Min and Max Power. On the end of that particular Scene, die.</Desc>
+    <Desc>Upon taking lethal damage, become briefly immune to all forms of damage and trigger the following: 
+	
+At the start of the next Scene, recover from Stagger, restore all light, draw 5 cards, and all dice gain +3 Min and Max Power. On the end of that particular Scene, die.</Desc>
   </Passive>
   <Passive ID="37770005">
     <Negative>false</Negative>
@@ -91,7 +100,7 @@ Gain Craving Monster / Hungry Monster / Starved Monster based on remaining HP on
     <Name>The Gray Cinderella / The Ashen Monster</Name>
     <Desc>At the start of each Act, heal 25% of your Max HP and gain The Gray Cinderella/Ashen Monster passive based on the current phase.
 	
-Gain x1.5 the amount of Poise from all sources.
+Gain x1.2 the amount of Poise from all sources, rounded up.
 
 Gain 1 Shin (心) - The Gray Cinderella upon:
 - Hitting a target 5 times, 
@@ -130,7 +139,7 @@ Whenever receiving a one-sided attack and the counter queue is empty, there is a
     <Cost>9</Cost>
     <Script>CindGray_PlayerIndomitable</Script>
     <Name>Indomitable</Name>
-    <Desc>Take 1 less damage and stagger damage from all sources (Including damage from non-attacks). 
+    <Desc>Receive 1 less damage and stagger damage from all sources (Including damage from non-attacks). 
 	
 Whenever receiving a one-sided attack and the counter queue is empty, there is a chance to respond with [Countermeasures] skill (Twice per Scene). Every time this is used, inflict 1 Bind on self.</Desc>
   </Passive>

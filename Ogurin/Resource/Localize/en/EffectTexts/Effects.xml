@@ -33,25 +33,35 @@
 
 	<BattleEffectText ID="OguriCraving">
 		<Name>Craving Monster</Name>
-		<Desc>On using a Combat Page, restore 1 Light.
-		
-[On Hit] If the target is Staggered, recover 8% of missing HP (4% for Boss).</Desc>
+		<Desc>On using a Combat Page, restore 1 Light. 
+
+Receive 1 less damage and stagger damage from all sources (Including damage from non-attacks). 		
+
+All offensive dice gain the following effect:
+[On Hit] Heal own HP equal to the Rupture stacks on target. This does not trigger when you are currently above 80% HP.
+</Desc>
 	  </BattleEffectText>
 
 	  <BattleEffectText ID="OguriHungry">
 		<Name>Hungry Monster</Name>
 		<Desc>On using a Combat Page, restore 1-2 Light. All Dice on this character gain +1 Max value.
 		
-[On Hit] If the target is Staggered, recover 12% of missing HP (6% for Boss).</Desc>
+Receive 2 less damage and stagger damage from all sources (Including damage from non-attacks). 
+
+All offensive dice gain the following effect:
+[On Hit] Heal own HP equal to 1.5x the Rupture stacks on target. This does not trigger when you are currently above 60% HP.
+</Desc>
 	  </BattleEffectText>
 
 	  <BattleEffectText ID="OguriStarving">
 		<Name>Starved Monster</Name>
 		<Desc>On using a Combat Page, restore 1-3 Light and have a 33% chance to draw 1 Page. All Dice on this character gain +1 Min and +2 Max value.
 		
-[On Hit] If the target is Staggered, recover 16% of missing HP (8% for Boss).
+Receive 3 less damage and stagger damage from all sources (Including damage from non-attacks). 
 
-(If your HP goes above 50% HP, self-damage from Monster passive is multiplied by 3x (2x for Boss) for 3 Scenes.)</Desc>
+All offensive dice gain the following effect:
+[On Hit] Heal own HP equal to 2x the Rupture stacks on target. This does not trigger when you are currently above 40% HP.
+		</Desc>
 	  </BattleEffectText>
 	
 	<BattleEffectText ID="CindGray_Cinderella">
@@ -82,6 +92,11 @@ At the end of the Scene, gain 1 Poise and 1 Damage Up for every 15% missing HP a
 At the end of each Scene, any leftover Shield exceeding 30% of a character's Max HP will be removed.
 
 Current shield HP: {0}</Desc>
+    </BattleEffectText>
+	
+	<BattleEffectText ID="CindGray_UndyingFlame">
+      <Name>Undying Flame</Name>
+      <Desc>"Win the Arima Kinen, OGURI CAP !!!!!"</Desc>
     </BattleEffectText>
   </effectTextList>
 </BattleEffectTextRoot>

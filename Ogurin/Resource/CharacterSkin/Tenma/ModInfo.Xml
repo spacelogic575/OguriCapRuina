@@ -1,0 +1,19 @@
+<ModInfo>
+  <FaceInfo>
+    <Front_FrontHair>Front_FrontHair</Front_FrontHair>
+    <Front_RearHair>Front_RearHair</Front_RearHair>
+    <Front_Eye>Front_Eye</Front_Eye>
+    <Front_Brow_Normal>Front_Brow_Normal</Front_Brow_Normal>
+    <Front_Brow_Attack>Front_Brow_Attack</Front_Brow_Attack>
+    <Front_Brow_Hit>Front_Brow_Hit</Front_Brow_Hit>
+    <Front_Mouth_Normal>Front_Mouth_Normal</Front_Mouth_Normal>
+    <Front_Mouth_Attack>Front_Mouth_Attack</Front_Mouth_Attack>
+    <Front_Mouth_Hit>Front_Mouth_Hit</Front_Mouth_Hit>
+    <Side_FrontHair>Side_FrontHair</Side_FrontHair>
+    <Side_Eye>Side_Eye</Side_Eye>
+    <Side_RearHair_Front>Side_RearHair_Front</Side_RearHair_Front>
+    <Side_RearHair_Rear>Side_RearHair_Rear</Side_RearHair_Rear>
+    <Side_Brow>Side_Brow</Side_Brow>
+    <Side_Mouth>Side_Mouth</Side_Mouth>
+  </FaceInfo>
+</ModInfo>
