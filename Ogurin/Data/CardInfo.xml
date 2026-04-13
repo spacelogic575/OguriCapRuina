@@ -202,12 +202,12 @@
     <Rarity>Unique</Rarity>
     <Spec Range="FarAreaEach" Cost="5" Affection="One" EmotionLimit="0" />
     <Script>CindGray_TriumphantPulse</Script>
-    <ScriptDesc>Dice on this Page deal 1% more damage for every 0.7% missing HP on self. At 85% missing HP, this automatically maxes out to 70%. Additionally, Crits on this Page lose twice the Poise, but increases damage dealt by Crits to x1.5</ScriptDesc>
+    <ScriptDesc>Dice on this Page deal 1% more damage for every 2% missing HP on self. When below 50% of your Max HP, this bonus automatically fixes to 50%.</ScriptDesc>
     <BehaviourList>
       <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_1" ActionScript="" Desc="" />
       <Behaviour Min="5" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_2" ActionScript="" Desc="" />
       <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_3" ActionScript="" Desc="" />
-      <Behaviour Min="6" Dice="10" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_4" ActionScript="" Desc="" />
+      <!--<Behaviour Min="6" Dice="10" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_4" ActionScript="" Desc="" />-->
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -228,7 +228,7 @@
     <Rarity>Unique</Rarity>
     <Spec Range="FarArea" Cost="7" Affection="One" EmotionLimit="0" />
     <Script>CindGray_DawnlitAshenTrail</Script>
-    <ScriptDesc>Dice on this Page deal 1% more damage for every 0.5% missing HP on self. At below 50% HP, this automatically maxes out to 150%. Additionally, Crits on this Page lose twice the Poise, but increases damage dealt by Crits to x2.0</ScriptDesc>
+    <ScriptDesc>This Page deals 1% more damage for every 1.5% missing HP on self. When below 50% of your Max HP, this bonus automatically fixes itself to 75%.</ScriptDesc>
     <BehaviourList>
       <Behaviour Min="14" Dice="38" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Esther_SpecialAtk" Script="CindGray_Dawnlit_1" ActionScript="" Desc="" />
     </BehaviourList>
@@ -252,12 +252,12 @@
     <Option>EgoPersonal</Option> 
     <Spec Range="FarAreaEach" Cost="5" Affection="Team" EmotionLimit="0" />
     <Script>CindGray_TriumphantPulse</Script>
-    <ScriptDesc>Dice on this Page deal 1% more damage for every 0.7% missing HP on self. At 85% missing HP, this automatically maxes out to 70%. Additionally, Crits on this Page lose twice the Poise, but increases damage dealt by Crits to x1.5</ScriptDesc>
+    <ScriptDesc>Dice on this Page deal 1% more damage for every 0.7% missing HP on self. At 85% missing HP, this automatically maxes out to 70%.</ScriptDesc>
     <BehaviourList>
       <Behaviour Min="4" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_1" ActionScript="" Desc="" />
       <Behaviour Min="5" Dice="8" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_2" ActionScript="" Desc="" />
       <Behaviour Min="6" Dice="9" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_3" ActionScript="" Desc="" />
-      <Behaviour Min="6" Dice="10" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_4" ActionScript="" Desc="" />
+      <!--<Behaviour Min="6" Dice="10" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Hubert_SpecialAtk" Script="CindGray_TriumPulse_4" ActionScript="" Desc="" />-->
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -279,7 +279,7 @@
     <Option>EgoPersonal</Option> 
     <Spec Range="FarArea" Cost="7" Affection="Team" EmotionLimit="0" />
     <Script>CindGray_DawnlitAshenTrail</Script>
-    <ScriptDesc>Dice on this Page deal 1% more damage for every 0.5% missing HP on self. At below 50% HP, this automatically maxes out to 150%. Additionally, this page consumes 2 Poise, but deal x2 Critical damage.</ScriptDesc>
+    <ScriptDesc>Dice on this Page deal 1% more damage for every 0.5% missing HP on self. At below 50% HP, this automatically maxes out to 150%.</ScriptDesc>
     <BehaviourList>
       <Behaviour Min="14" Dice="38" Type="Atk" Detail="Slash" Motion="J" MotionDefault="N" EffectRes="Esther_SpecialAtk" Script="CindGray_Dawnlit_1" ActionScript="" Desc="" />
     </BehaviourList>

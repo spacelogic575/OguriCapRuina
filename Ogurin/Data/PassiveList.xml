@@ -35,7 +35,7 @@ Whenever you have 5 Shin (心) - The Gray Cinderella, expend them to gain 1 Mang
     <Cost>7</Cost>
     <Script>CindGray_StarlightOfKasamatsu</Script>
     <Name>Starlight of Kasamatsu</Name>
-    <Desc>Gain 1 Haste next Scene. If this unit is faster than half of the units on field, gain 3 Haste instead. If the Speed difference between this unit and the target are greater than 3, the target loses Power equal to the Speed difference reduced by 2.</Desc>
+    <Desc>Gain 1 Haste next Scene. If this unit is faster than half of the units on field, gain 3 Haste instead. If this unit's Speed is faster than the target by 2 or more, the target's dice power is reduced by 1 for every 2 speed difference (Max -5)</Desc>
   </Passive>
   <Passive ID="37770003">
     <Negative>false</Negative>
@@ -70,9 +70,17 @@ Gain the following benefits, triggerable up to 3 times per Scene each:
     <Cost>7</Cost>
     <Script>CindGray_UndyingFlame</Script>
     <Name>Undying Flame</Name>
-    <Desc>Upon taking lethal damage, become briefly immune to all forms of damage and trigger the following: 
+    <Desc>Upon taking lethal damage, become briefly immune to all forms of damage.
 	
-At the start of the next Scene, recover from Stagger, restore all light, draw 5 cards, and all dice gain +3 Min and Max Power. On the end of that particular Scene, die.</Desc>
+At the start of the following Scene, gain the following benefits:
+- Recover from Stagger, 
+- Restore all light, 
+- Draw 5 cards, 
+- Gain 6 Haste, 
+- Gain +2 Power and are treated as Crits, 
+- Losing a clash with offensive dice will instead deal 5 fixed damage or 2% of the target's Max HP as fixed true damage, whichever is greater. 
+
+At the end of that particular Scene, die.</Desc>
   </Passive>
   <Passive ID="37770005">
     <Negative>false</Negative>
@@ -126,7 +134,7 @@ This unit's Undying Flame passive lasts for 2 Scenes instead of 1.</Desc>
     <Name>Indomitable</Name>
     <Desc>Take 1 less damage and stagger damage from all sources (Including damage from non-attacks). 
 	
-Whenever receiving a one-sided attack and the counter queue is empty, there is a chance to respond with [Countermeasures] skill. Every time this is used, inflict 1 Bind on self.</Desc>
+Whenever receiving a one-sided attack and the counter queue is empty, there is a chance to respond with [Countermeasures] skill. Every time this skill is generated, inflict 2 Bind on self, and inflict 1 more Bind whenever losing a clash with it.</Desc>
   </Passive>
   <Passive ID="37770008">
     <Negative>false</Negative>
@@ -141,6 +149,6 @@ Whenever receiving a one-sided attack and the counter queue is empty, there is a
     <Name>Indomitable</Name>
     <Desc>Receive 1 less damage and stagger damage from all sources (Including damage from non-attacks). 
 	
-Whenever receiving a one-sided attack and the counter queue is empty, there is a chance to respond with [Countermeasures] skill (Twice per Scene). Every time this is used, inflict 1 Bind on self.</Desc>
+Whenever receiving a one-sided attack and the counter queue is empty, there is a chance to respond with [Countermeasures] skill (Twice per Scene). Every time this skill is generated, inflict 2 Bind on self, and inflict 1 more Bind whenever losing a clash with it.</Desc>
   </Passive>
 </PassiveXmlRoot>
