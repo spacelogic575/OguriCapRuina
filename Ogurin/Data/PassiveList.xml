@@ -70,15 +70,15 @@ Gain the following benefits, triggerable up to 3 times per Scene each:
     <Cost>7</Cost>
     <Script>CindGray_UndyingFlame</Script>
     <Name>Undying Flame</Name>
-    <Desc>Upon taking lethal damage, become briefly immune to all forms of damage.
+    <Desc>Upon taking lethal damage, become briefly immune to all forms of damage for the rest of the Scene.
 	
 At the start of the following Scene, gain the following benefits:
 - Recover from Stagger, 
 - Restore all light, 
 - Draw 5 cards, 
 - Gain 6 Haste, 
-- Gain +2 Power and are treated as Crits, 
-- Losing a clash with offensive dice will instead deal 5 fixed damage or 2% of the target's Max HP as fixed true damage, whichever is greater. 
+- Gain +2 Power and are always guaranteed to Crit, 
+- Losing a clash with offensive dice will instead deal 5 fixed damage or 2% of the target's Max HP as fixed damage, whichever is greater. 
 
 At the end of that particular Scene, die.</Desc>
   </Passive>

@@ -16,9 +16,11 @@
       <Desc>At the start of the Scene, gain Damage Up equal to stack. Gain a Shield equal to 2% of Max HP per stack.</Desc>
     </BattleEffectText>
 
-    <BattleEffectText ID="CindGray_BossOguriMang">
+<BattleEffectText ID="CindGray_BossOguriMang">
       <Name>Mang (望) - Gray Cinderella</Name>
-      <Desc>At the start of the Scene, gain +1 Dice Power for every 3 Haste (Up to 3), and +1 Dice Max for every 3 Speed difference per stack (Up to 3). Additionally, gain damage resistance equal to ((50% + Missing HP%)/3) whenever this status is active (Does not stack).</Desc>
+      <Desc>At 1 Stack, Gain +1 Dice Power for every 3 Haste (Max 2). Take reduced Damage and Break Damage equal to ((50 + Missing HP%) / 3)%.
+	  
+At 2 Stacks, When clashing against a slower target, gain +1 Maximum Roll Value for every 2 Speed difference (Max 2), and gain half this amount as Minimum Roll Value. Critical hits deal +25% more damage.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="CindGray_PlayerOguriShin">
@@ -28,7 +30,9 @@
 
     <BattleEffectText ID="CindGray_PlayerOguriMang">
       <Name>Mang (望) - Gray Cinderella</Name>
-      <Desc>At the start of the Scene, gain +1 Dice Power for every 6 Haste (Up to 2), and +1 Dice Max for every 3 Speed difference per stack (Up to 3). Additionally, gain damage resistance equal to ((50% + Missing HP%)/6) whenever this status is active (Does not stack).</Desc>
+      <Desc>At 1 Stack, gain +1 Dice Power for every 3 Haste (Max 2). Take reduced Damage and Break Damage equal to ((50 + Missing HP%) / 5)%.
+	  
+At 2 Stacks, When clashing against a slower target, gain +1 Maximum Roll Value for every 2 Speed difference (Max 2), and gain half this amount as Minimum Roll Value. Critical hits deal +15% more damage.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="LetMyNameRockEarth">
