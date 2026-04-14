@@ -13,36 +13,36 @@
 
 	<BattleEffectText ID="CindGray_BossOguriShin">
       <Name>Shin (心) - Gray Cinderella</Name>
-      <Desc>At the start of the Scene, gain Damage Up equal to stack. Gain a Shield equal to 2% of Max HP per stack.</Desc>
+      <Desc>At the start of the Scene, gain a Shield equal to 2% of Max HP per stack.</Desc>
     </BattleEffectText>
 
-<BattleEffectText ID="CindGray_BossOguriMang">
+    <BattleEffectText ID="CindGray_BossOguriMang">
       <Name>Mang (望) - Gray Cinderella</Name>
-      <Desc>At 1 Stack, Gain +1 Dice Power for every 3 Haste (Max 2). Take reduced Damage and Break Damage equal to ((50 + Missing HP%) / 3)%.
+      <Desc>At 1 Stack, gain +1 Defensive Dice Power for every 3 Haste (Max 3). Take reduced Damage and Break Damage equal to ((50 + Missing HP%) / 3)%.
 	  
-At 2 Stacks, When clashing against a slower target, gain +1 Maximum Roll Value for every 2 Speed difference (Max 2), and gain half this amount as Minimum Roll Value. Critical hits deal +25% more damage.</Desc>
+At 2 Stacks, when using an Offensive Dice, gain +1 Power for every Speed difference of 2 (Max 3). Critical hits deal +25% more damage.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="CindGray_PlayerOguriShin">
       <Name>Shin (心) - Gray Cinderella</Name>
-      <Desc>At the start of the Scene, gain Damage Up equal to stack. Gain a Shield equal to 7% of Max HP per stack.</Desc>
+      <Desc>At the start of the Scene, gain a Shield equal to 7% of Max HP per stack.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="CindGray_PlayerOguriMang">
       <Name>Mang (望) - Gray Cinderella</Name>
-      <Desc>At 1 Stack, gain +1 Dice Power for every 3 Haste (Max 2). Take reduced Damage and Break Damage equal to ((50 + Missing HP%) / 5)%.
+      <Desc>At 1 Stack, gain +1 Defensive Dice Power for every 3 Haste (Max 3). Take reduced Damage and Break Damage equal to ((50 + Missing HP%) / 5)%.
 	  
-At 2 Stacks, When clashing against a slower target, gain +1 Maximum Roll Value for every 2 Speed difference (Max 2), and gain half this amount as Minimum Roll Value. Critical hits deal +15% more damage.</Desc>
+At 2 Stacks, when using an Offensive Dice, gain +1 Power for every Speed difference of 2 (Max 3). Critical hits deal +15% more damage.</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="LetMyNameRockEarth">
       <Name>Let My Name Rock Earth</Name>
-      <Desc> Attacking an enemy with a Speed difference of 5 or higher inflicts 1 Feeble on Clash Win (up to 5 times per Scene).</Desc>
+      <Desc>Inflict 2 Bind to all enemies at the start of each Scene. Deal 1 extra damage against slower targets. Gain 1 Paralyze at a (Speed difference x 10)% chance upon losing a Clash against a target with slower Speed (max, 3 Paralyze per Page).</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="LetMyNameShakeHeavenAndEarth">
       <Name>Let My Name Shake Heaven and Earth</Name>
-      <Desc>Attacking an enemy with a Speed difference of 5 or higher inflicts 1~2 Feeble and Fragile on Clash Win (up to 8 times per Scene). If enemy Bind sum is 15+, inflict half of the Feeble total to all enemies next Scene.</Desc>
+      <Desc>Inflict 2 Bind and 1 Feeble to all enemies at the start of each Scene. Deal 3 extra damage against slower targets. Gain 1 Paralyze at a (Speed difference x 10)% chance upon losing a Clash against a target with slower Speed (max, 3 Paralyze per Page).</Desc>
     </BattleEffectText>
 
 	<BattleEffectText ID="OguriCraving">
@@ -80,23 +80,22 @@ All offensive dice gain the following effect:
 	
 	<BattleEffectText ID="CindGray_Cinderella">
       <Name>The Gray Cinderella</Name>
-      <Desc>At the start of the Scene, when this unit has not taken any damage to their HP the previous Scene, restore 4% max HP (does not count the Monster Passive’s effect). 
-For every instance this triggers, further increase this effect by 0.8% flat (additive, max 4% total), resets when it stops triggering consecutively. 
+      <Desc>Restore 2 HP and Stagger Resist on clash win with any die.
 
 If HP is greater than 75%, also gain “Let My Name Rock Earth”. 
 
-At the end of the Scene, gain 1 Poise and 1 Strength for every 50% missing HP next Scene. 
-	  </Desc>
+At the start of each Scene, gain 1 Poise for every 35% missing HP, and gain 1 Haste for every 50% missing HP.
+</Desc>
     </BattleEffectText>
 
     <BattleEffectText ID="CindGray_AshenMonster">
       <Name>The Ashen Monster</Name>
-      <Desc>At the start of the Scene, when this unit has not taken any damage to their HP the previous Scene, restore 8% max HP. 
-For every instance this triggers, further increase the effect by 1% flat (max, 10% total). 
+      <Desc>Restore 3 HP and Stagger Resist while inflicting 1 Rupture to the target on clash win with any die. 
 
 If HP is greater than 60%, also gain “Let My Name Shake Heaven and Earth”. 
 
-At the end of the Scene, gain 1 Poise and 1 Damage Up for every 15% missing HP and 1 Strength for every 30% missing HP next Scene.</Desc>
+At the start of each Scene, gain 1 Poise for every 25% missing HP, and gain 1 Haste for every 35% missing HP.
+</Desc>
     </BattleEffectText>
 	
 	<BattleEffectText ID="CindGray_Shield">

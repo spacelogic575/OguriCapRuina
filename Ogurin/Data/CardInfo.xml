@@ -170,18 +170,19 @@
     <PriorityScript />
     <Category>None</Category>
     <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
-    <MaxNum>150</MaxNum>
-  </Card>
-  <Card ID="37770008">
+    <MaxNum>160</MaxNum>
+  </Card3
+  <Card 3D="37770008">
     <Name>Flash Forward</Name>
     <TextId>-1</TextId>
     <Artwork>CindGray_Placeholder.png</Artwork>
     <Rarity>Unique</Rarity>
     <Spec Range="Near" Cost="3" Affection="One" EmotionLimit="0" />
     <Script>CindGray_FlashForward</Script>
-    <ScriptDesc>[Combat Start] The first Dice of every Combat Page used by this unit this Scene gains Power equal to Haste on self (Max, 5)</ScriptDesc>
+    <ScriptDesc>[Combat Start] The first Dice of every Combat Page used by this unit this Scene gains Power equal to Haste on self (Max 5)</ScriptDesc>
     <BehaviourList>
-      <Behaviour Min="6" Dice="15" Type="Standby" Detail="Penetrate" Motion="Z" MotionDefault="N" EffectRes="FX_Mon_Bayyard_SPiercing" Script="CindGray_FlashForward_1" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="13" Type="Standby" Detail="Evade" Motion="Z" MotionDefault="N" EffectRes="FX_Mon_Bayyard_SPiercing" Script="CindGray_FlashForward_1" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="13" Type="Standby" Detail="Evade" Motion="Z" MotionDefault="N" EffectRes="FX_Mon_Bayyard_SPiercing" Script="CindGray_FlashForward_1" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
