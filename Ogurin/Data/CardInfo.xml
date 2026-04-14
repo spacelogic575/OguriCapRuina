@@ -181,8 +181,8 @@
     <Script>CindGray_FlashForward</Script>
     <ScriptDesc>[Combat Start] The first Dice of every Combat Page used by this unit this Scene gains Power equal to Haste on self (Max 5)</ScriptDesc>
     <BehaviourList>
-      <Behaviour Min="6" Dice="13" Type="Standby" Detail="Evade" Motion="Z" MotionDefault="N" EffectRes="FX_Mon_Bayyard_SPiercing" Script="CindGray_FlashForward_1" ActionScript="" Desc="" />
-      <Behaviour Min="6" Dice="13" Type="Standby" Detail="Evade" Motion="Z" MotionDefault="N" EffectRes="FX_Mon_Bayyard_SPiercing" Script="CindGray_FlashForward_1" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="13" Type="Standby" Detail="Evasion" Motion="Z" MotionDefault="N" EffectRes="FX_Mon_Bayyard_SPiercing" Script="CindGray_FlashForward_1" ActionScript="" Desc="" />
+      <Behaviour Min="6" Dice="13" Type="Standby" Detail="Evasion" Motion="Z" MotionDefault="N" EffectRes="FX_Mon_Bayyard_SPiercing" Script="CindGray_FlashForward_1" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
@@ -305,7 +305,7 @@
     <Script />
     <ScriptDesc />
     <BehaviourList>
-      <Behaviour Min="4" Dice="6" Type="Standby" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="CindGray_Countermeasures" ActionScript="" Desc="" />
+      <Behaviour Min="4" Dice="6" Type="Standby" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="CindGray_Countermeasures" ActionScript="" Desc="" />
     </BehaviourList>
     <Chapter>7</Chapter>
     <SpecialEffect />
